@@ -1,0 +1,55 @@
+    body {
+        background: #91eae4;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    h1 {
+        color: royalblue;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        margin: 15px 0 15px 0;
+    }
+    
+    .card {
+        background: #91eae4;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+    }
+    
+    .App {
+        text-align: center;
+    }
+    
+    .App-logo {
+        height: 40vmin;
+        pointer-events: none;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+            animation: App-logo-spin infinite 20s linear;
+        }
+    }
+    
+    .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+    
+    .App-link {
+        color: #61dafb;
+    }
